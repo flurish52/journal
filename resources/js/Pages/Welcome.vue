@@ -6,4 +6,5 @@ import GuestLayout from "@/Layouts/GuestLayout.vue";
     <GuestLayout>
 
     </GuestLayout>
+
 </template>

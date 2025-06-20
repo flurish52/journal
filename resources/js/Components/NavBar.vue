@@ -6,7 +6,7 @@
 
                 <div class="flex items-center gap-4">
                     <Link href="/" class="py-2 mx-3 text-gray-700 hover:text-blue-600">
-                        <span class="text-xl font-bold">JournalSite</span>
+                        <span class="text-xl font-bold">NAEC</span>
                     </Link>
                 </div>
 
