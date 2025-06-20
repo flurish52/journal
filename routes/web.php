@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutUsController;
 use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\EditorDecisionController;
 use App\Http\Controllers\ProfileController;
@@ -20,6 +21,8 @@ Route::get('/', function () {
         'phpVersion' => PHP_VERSION,
     ]);
 });
+
+Route::get('/about-us', [AboutUsController::class, 'index']);
 
 Route::get('/author/dashboard', function () {
     return Inertia::render('Author/Dashboard');
