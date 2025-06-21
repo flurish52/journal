@@ -1,5 +1,6 @@
 <template>
-    <nav class=" border-b border-gray-200 dark:border-gray-700 px-4 sm:px-6 lg:px-8">
+    <div class="sticky">
+        <nav class=" bg-gray-50 border-b border-gray-200 dark:border-gray-700 px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
             <!-- Left: Logo -->
             <div class="flex ">
@@ -110,6 +111,7 @@
             </div>
         </div>
     </nav>
+    </div>
 </template>
 
 <script setup>
